@@ -1,0 +1,41 @@
+#root {
+    display: flex;
+    justify-content: center;
+    word-break: break-all;
+}
+
+.clear-all {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+.clear-all input[type='button'] {
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(rgb(156, 5, 5), rgb(201, 255, 201));
+}
+
+form * {
+    display: block;
+    margin: 5px 0;
+}
+/* ol {
+    counter-reset:li;
+}
+ol li:before {
+    content: counter(li);
+    counter-increment:li;
+    position: relative;
+    right: 10px;
+} */
+.list-item {
+    height: 40px;
+}
+.list-item * {
+    display: inline-block;
+    margin: 0 10px;
+}
+.list-item li {
+    display: list-item;
+    float: left;
+}
